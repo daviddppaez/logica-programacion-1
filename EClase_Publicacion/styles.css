@@ -1,0 +1,61 @@
+.genContPubli {
+    background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.genPerfilPhoto {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.genPerfilPhoto img {
+    width: 100%;
+}
+
+.genPerfilData {
+    display: inline-block;
+}
+
+.genPerfilData h2, .genPerfilData p {
+    font-size: 16px;
+    margin: 0;
+    padding: 0 5px 5px 5px;
+}
+
+.genPublicacion {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.genContador p {
+    font-size: 10px;
+}
+
+.genLike, .genSuperLike {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.genLike button, .genSuperLike button{
+    background-color: lightseagreen;
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    border-radius: 10px; 
+}
+
+#genSuperLikeCount {
+    background-color: gainsboro;
+    padding: 5px;
+    border-radius: 5px; 
+}

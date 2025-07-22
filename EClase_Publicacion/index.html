@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Publicación de Papitas</title>
+</head>
+<body>
+    <div class="genContPubli">
+
+        <div>
+        <div class="genPerfilPhoto">
+            <img src="profilePhoto.webp" alt="Papitas, Foto de Perfil">
+        </div>
+        <div class="genPerfilData">
+            <h2>Papitas Incorporation</h2>
+            <p>Publicado el 21/07/2025, 16:30</p>
+        </div>
+        </div>
+
+        <div>
+            <div class="genPublicacion">
+                <p>¡Hemos llegado a 100 papitas! 🥔</p>
+            </div>
+        </div>
+
+        <div>
+            <div class="genContador">
+                <p>La publicación ha tenido <span id="genLikeCount">0</span> me gustas</p>
+            </div>
+            <div class="genLike" onclick="genClicLike()">
+                <button>Like (+1)</button>
+            </div>
+            <div class="genSuperLike" onclick="genClicSuperLike()">
+                <button>SuperLike (+10) <span id="genSuperLikeCount">3</span></button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
