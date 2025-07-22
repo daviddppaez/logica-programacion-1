@@ -59,6 +59,12 @@ if (genNum1 > genNum2) {
 // Resultado
 console.log("")
 console.log("========== Resultados ==========")
-console.log("Número mayor:", genMayor);
-console.log("Número intermedio:", genInter);
-console.log("Número menor:", genMenor);
+if (genNum1 !== NaN) {
+    if (genNum2 !== NaN) {
+        if (genNum3 !== NaN) {
+            console.log("Número mayor:", genMayor);
+            console.log("Número intermedio:", genInter);
+            console.log("Número menor:", genMenor);
+        }
+    }
+}

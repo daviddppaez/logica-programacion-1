@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Papitas: Labs</title>
+</head>
+<body>
+
+    <header></header>
+
+    <main>
+        <div class="genPapitasLab">
+            <h2>Laboratorio de Papitas Inc</h2>
+            <p>Determinemos cuál número es mayor, menor e intermedio</p>
+            <form id="formulario">
+                <div class="genInput">
+                    <p>Número 1</p>
+                    <input type="number" id="genNum1">
+                </div>
+                <div class="genInput">
+                    <p>Número 2</p>
+                    <input type="number" id="genNum2">
+                </div>
+                <div class="genInput">
+                    <p>Número 3</p>
+                    <input type="number" id="genNum3">
+                </div>
+                <div>
+                <button type="submit">
+                    ¡Mostrar resultado!
+                </button>
+                </div>
+            </form>
+        </div>
+        <div id="genPapitasRes">
+            <h2>Resultados del Laboratorio</h2>
+            <div class="genResStyle"><p>Mayor: <span id="genMayor">0</span></p></div>
+            <div class="genResStyle"><p>Intermedio: <span id="genInter">0</span></p></div>
+            <div class="genResStyle"><p>Menor: <span id="genMenor">0</span></p></div>
+        </div>
+            <div id="genPapitasError">
+            <h2>Los valores introducidos hacen colapsar al pobre papitas :c, mira si:</h2>
+            <ul>
+                <li>Hay algún número que valga igual al anterior</li>
+                <li>Algún dato introducido no sea un número entero</li>
+                <li>Algún dato este vacío</li>
+            </ul>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
